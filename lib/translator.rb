@@ -46,5 +46,4 @@ def get_english_meaning(japanese_emoticon)
     end
   end
 return japanese_emoticon
-
 end
