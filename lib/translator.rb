@@ -1,10 +1,7 @@
 # require modules here
 require "yaml"
 require 'pry'
-# emoticons = {}
-# english = "english"
-# japanese = "japanese"
-#
+
 def load_library(file_path)
   # code goes here
   emoticons = {}
@@ -23,7 +20,8 @@ end
 
 def get_japanese_emoticon( english_meaning)
   # code goes here
-   load_libray('.lib/emoticons.yml')
+  emoticons =  load_libray('.lib/emoticons.yml')
+
 end
 
 def get_english_meaning(japanese_emoticon)
