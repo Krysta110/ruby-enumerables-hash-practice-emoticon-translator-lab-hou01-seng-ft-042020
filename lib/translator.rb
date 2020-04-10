@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(file_path, english_emoticon)
   # code goes here
-  japanese_emoticon = "Sorry, that emoticon was not found."
+  japanese_emoticon = "Sorry, that emoticon was not found"
   emoticons = load_library(file_path)
   emoticons.each do |key, value|
     value.each do |language,sign|
