@@ -58,7 +58,7 @@ end
 
 
 
-# 
+#
 #   japanese_emoticon = "Sorry, that emoticon is not found."
 #   emoticons =  load_library(file_path)
 #   emoticons.each do |key, value|
