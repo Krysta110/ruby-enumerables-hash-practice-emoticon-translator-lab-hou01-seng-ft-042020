@@ -22,8 +22,9 @@ def get_japanese_emoticon(english_meaning)
   # code goes here
   japanese_emoticon = " "
   emoticons =  load_libray('.lib/emoticons.yml')
-  emoticons.each do |e_meaning, value|
-    if e_meaning == english_meaning
+  emoticons.each do |key, value|
+    if key == english_meaning
+      japanese_emoticon = emoticons[key][:japanese]
 
 
 end
