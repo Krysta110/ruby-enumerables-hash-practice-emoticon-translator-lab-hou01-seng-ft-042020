@@ -20,7 +20,7 @@ def load_library(file_path)
         }
 
     end
-  # binding.pry
+   binding.pry
 return emoticons
 end
 
