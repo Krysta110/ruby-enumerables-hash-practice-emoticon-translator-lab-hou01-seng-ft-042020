@@ -47,7 +47,6 @@ def get_english_meaning(file_path, japanese_emoticon)
     value.each do |language,sign|
       if language.to_s == "japanese"
           if sign == japanese_emoticon
-            binding.pry
             english_emoticon = key
           end
       end
