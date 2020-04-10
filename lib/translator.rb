@@ -47,7 +47,7 @@ def get_english_meaning(file_path, japanese_emoticon)
     value.each do |language,sign|
       if language.to_s == "japanese"
           if sign == japanese_emoticon
-            english_emoticon = emoticons[key][:english]
+            english_emoticon = emoticons[key]
           end
       end
     end
