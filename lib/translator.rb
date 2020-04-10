@@ -29,7 +29,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
       end
     end
   end
-return japanese_empticon
+return japanese_emoticon
 
 end
 
