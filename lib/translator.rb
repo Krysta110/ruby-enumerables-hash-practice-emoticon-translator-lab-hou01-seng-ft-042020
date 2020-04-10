@@ -25,7 +25,7 @@ def get_japanese_emoticon(english_meaning)
   emoticons.each do |key, value|
     if key == english_meaning
       japanese_emoticon = emoticons[key][:japanese]
-    
+
 
 end
 
