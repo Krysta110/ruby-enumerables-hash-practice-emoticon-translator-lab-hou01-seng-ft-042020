@@ -30,6 +30,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
       japanese_emoticon = emoticons[key][:japanese]
       binding.pry
     end
+    end
   end
 return japanese_empticon
 
